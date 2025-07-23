@@ -166,6 +166,56 @@ main{
   width: 100%;
 }
 
+/* Flower-Plants-Lover */
+
+.Flower-Plants-Lover-container{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.images-container{
+  position: relative;
+   max-width: 540px;
+
+}
+
+.img1{
+
+ 
+}
+.img2{
+  position: absolute;
+  max-width: 286px;
+  height: 286px;
+  right: -140px;
+  top: -135px;
+}
+
+.img1-logo{
+  width: 100%;
+
+}
+
+.img2-logo{
+  width: 100%;
+}
+
+.Flower-Plants-Lover--{
+  max-width: 540px;
+}
+
+.Flower-Plants-Lover-title{
+  font-size: 3.12rem;
+  font-weight: bold;
+  color:#000000
+}
+.Flower-Plants-Lover-lists{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
 
 
 
@@ -177,17 +227,20 @@ main{
 
 @media screen and (max-width:576px){
 
-  .display{
+  .display,
+  .img2{
     display: none;
   }
 
-  .banner-container{
+  .banner-container,
+  .Flower-Plants-Lover-container{
     flex-direction: column-reverse;
     
   }
 
   .banner,
-  .navber{
+  .navber,
+  .Flower-Plants-Lover-container{
     padding: 28px 16px;
   }
 
@@ -219,8 +272,18 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     place-items: center;
+    margin-bottom: 41px;
   }
   .btn-primary{
     padding: 19px 30px;
+  }
+
+  .Flower-Plants-Lover-title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .Flower-Plants-Lover-lists{
+    font-size: 0.87rem;
   }
 }
