@@ -14,8 +14,7 @@
 *{
   margin: 0;
   padding: 0;
-
-
+  box-sizing: border-box;
 }
 
 body{
@@ -31,6 +30,23 @@ body{
   color: #E95A08;
 }
 
+.btn-primary{
+  font-size: 1rem;
+  font-weight: 500;
+
+  background-color: #E95A08;
+  color: #FFFFFF;
+  border: none;
+  padding: 19px 80px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.text-primary{
+  text-align: center;
+}
 
 /* header section  */
 .header{
@@ -99,7 +115,112 @@ body{
 }
 
 .banner-img{
+  width: 100%;  
+}
 
+/* main section */
+
+/* card-section */
+
+.cards-title-des{
+  text-align: center;
+
+}
+
+.cards-title{
+  font-size: 3.12rem;
+  font-weight: bold;
+}
+
+.cards-des{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.378rem;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+
+  margin-top: 49px;
+  margin-bottom: 200px;
+}
+
+.card{
+  max-width:270px;;
+}
+
+.card-title{
+  font-size: 1.337rem;
+  font-weight: 500;
+
+}
+
+.card-rate{
+  font-size: 1.337rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.card-img{
   width: 100%;
-  
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:576px){
+
+  .display{
+    display: none;
+  }
+
+  .banner-container{
+    flex-direction: column-reverse;
+    
+  }
+
+  .banner,
+  .navber{
+    padding: 28px 16px;
+  }
+
+  .banner-title{
+    font-size: 1.5rem;
+    margin-bottom: 13px;
+  }
+
+
+  .card{
+    max-width: 171px;
+  }
+
+  .card-title{
+    font-size: 1rem;
+  }
+  .card-rate{
+    font-size: 1rem;
+  }
+  .cards-title{
+    font-size: 1.5rem;
+  }
+
+  .cards-des{
+    font-size: 0.87rem;
+  }
+
+  .cards{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
+  }
+  .btn-primary{
+    padding: 19px 30px;
+  }
 }
