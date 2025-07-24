@@ -37,11 +37,6 @@ body {
   padding: 19px 80px;
 }
 
-main {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 .width {
   max-width: 1140px;
   margin: 0 auto;
@@ -241,7 +236,6 @@ main {
   gap: 20px;
   margin-top: 120px;
   margin-bottom: 120px;
-
 }
 
 .discount1 {
@@ -291,24 +285,60 @@ main {
 }
 
 .bg1 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 14px;
 }
 
 .bg2 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-ana.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 14px;
 }
 
 .bg3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),url(../assets/deal-zabo.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-zabo.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 22px;
+}
+
+/* join-section */
+
+.join-section {
+  background-image: linear-gradient(rgba(7, 51, 79, 0.4)),
+    url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join-container {
+  padding: 149px;
+
+  margin: 0 auto;
+}
+
+.join-title {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.input {
+  width: 635px;
+  padding: 19px 20px;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #e95a08;
+  border: none;
+  font-size: 1rem;
+  padding: 19px 30px;
 }
 
 /* Media Queries */
@@ -392,9 +422,7 @@ main {
     width: 366px;
   }
 
-
-
-  .discount-container{
+  .discount-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 0 auto;
@@ -405,37 +433,54 @@ main {
 
   .discount1,
   .discount2,
-  .discount3{
+  .discount3 {
     grid-column: 1;
     width: 360px;
     font-size: 1.25rem;
     padding: 60px 49px;
   }
 
-  .discount1{
-    grid-row:1 ;
+  .discount1 {
+    grid-row: 1;
   }
-  .discount2{
-    grid-row:2;
-
+  .discount2 {
+    grid-row: 2;
   }
 
-  .discount3{
-    grid-row:3;
+  .discount3 {
+    grid-row: 3;
     grid-row: 1 span;
-
-
   }
   .discount1-des,
   .discount2-des,
-  .discount3-des{
+  .discount3-des {
     font-size: 1rem;
   }
 
   .bg1,
   .bg2,
-  .bg{
+  .bg {
     border-radius: 14px;
   }
 
+  .join-title {
+    font-size: 0.80rem;
+    margin-bottom: 10px;
+
+  }
+  .input {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 0.80rem;
+  }
+
+  .join-container {
+    width: 500px;
+    padding: 20px 100px;
+  }
+
+  .btn {
+    padding: 10px 15px;
+    font-size: 0.80rem;
+  }
 }
