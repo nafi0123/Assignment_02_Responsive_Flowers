@@ -346,6 +346,40 @@ body {
   border-radius: 10px;
 }
 
+/* footer area */
+
+footer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 1120px;
+}
+
+.footer-area1-des{
+  font-size: 1.25rem;
+  width: 359px;
+  margin-top: 60px;
+}
+
+.footer-area4 img{
+  margin-right: 20px;
+
+}
+.dark{
+  color: #6B7280;
+}
+footer ul{
+  line-height: 50px;
+}
+footer ul li{
+  list-style: none;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
@@ -399,7 +433,8 @@ body {
     padding: 19px 30px;
   }
 
-  .Flower-Plants-Lover-container {
+  .Flower-Plants-Lover-container,
+  .footer-container {
     flex-direction: column;
   }
 
@@ -485,26 +520,27 @@ body {
     padding: 50px 36px;
   }
 
-
-  /* .join-title {
-    font-size: 0.8rem;
-    margin-bottom: 10px;
-    width: 235px;
-    text-align: center;
-  }
-  .input {
-    width: 150px;
-    padding: 10px 15px;
-    font-size: 0.8rem;
+  .footer-area1-des{
+    margin-top: 15px;
   }
 
-  .join-container {
-    width: 321px;
-    margin: 0 auto;
+  .footer-container{
+    width: 350px;
   }
 
-  .btn {
-    padding: 10px;
-    font-size: 0.8rem;
-  } */
+  .footer-container ul{
+    margin-top: 8px;
+  }
+
+  footer li{
+    line-height: 30px;
+
+  }
+
+
+  .footer-container img {
+    margin-top: 10px;
+  }
+  
+
 }
