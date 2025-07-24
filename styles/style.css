@@ -18,8 +18,8 @@
 }
 
 body{
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px;
+  margin: 0 auto; */
   background-color: #F5F8FF;
 }
 .dark01{
@@ -33,11 +33,10 @@ body{
 .btn-primary{
   font-size: 1rem;
   font-weight: 500;
-
   background-color: #E95A08;
   color: #FFFFFF;
   border: none;
-  padding: 19px 80px;
+  padding: 19px 75px;
 }
 
 main{
@@ -95,11 +94,10 @@ main{
 /* banner section */
 .banner-container{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   max-width: 1140px;
   margin: 0 auto;
-
-
+  margin-bottom: 50px;
 }
 
 .banner-title{
