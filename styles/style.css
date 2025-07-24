@@ -315,12 +315,14 @@ body {
     url(../assets/news-letter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 533px;
 }
 
-.join-container {
-  padding: 149px;
-
-  margin: 0 auto;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 199px 305px;
 }
 
 .join-title {
@@ -329,8 +331,10 @@ body {
 }
 
 .input {
-  width: 635px;
+  width: 600px;
   padding: 19px 20px;
+  border-radius: 10px;
+  border: none;
 }
 
 .btn {
@@ -338,7 +342,8 @@ body {
   background-color: #e95a08;
   border: none;
   font-size: 1rem;
-  padding: 19px 30px;
+  padding: 19px;
+  border-radius: 10px;
 }
 
 /* Media Queries */
@@ -463,24 +468,43 @@ body {
     border-radius: 14px;
   }
 
-  .join-title {
-    font-size: 0.80rem;
-    margin-bottom: 10px;
+  .join-section {
+    height: 250px;
+  }
 
+  .join-title {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .input{
+    max-width:  220px;
+  }
+
+  .flex{
+    padding: 50px 36px;
+  }
+
+
+  /* .join-title {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    width: 235px;
+    text-align: center;
   }
   .input {
-    width: 200px;
+    width: 150px;
     padding: 10px 15px;
-    font-size: 0.80rem;
+    font-size: 0.8rem;
   }
 
   .join-container {
-    width: 500px;
-    padding: 20px 100px;
+    width: 321px;
+    margin: 0 auto;
   }
 
   .btn {
-    padding: 10px 15px;
-    font-size: 0.80rem;
-  }
+    padding: 10px;
+    font-size: 0.8rem;
+  } */
 }
