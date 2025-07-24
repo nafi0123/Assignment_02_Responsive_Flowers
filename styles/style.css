@@ -39,10 +39,16 @@ body{
   padding: 19px 75px;
 }
 
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.width{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .text-primary{
   text-align: center;
 }
@@ -138,7 +144,7 @@ main{
 .cards{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 30px;
+  gap: 10px;
 
   margin-top: 49px;
   margin-bottom: 200px;
@@ -174,7 +180,7 @@ main{
 
 .images-container{
   position: relative;
-   max-width: 540px;
+   width: 540px;
 
 }
 
@@ -200,7 +206,7 @@ main{
 }
 
 .Flower-Plants-Lover--{
-  max-width: 540px;
+  width: 540px;
 }
 
 .Flower-Plants-Lover-title{
@@ -230,8 +236,7 @@ main{
     display: none;
   }
 
-  .banner-container,
-  .Flower-Plants-Lover-container{
+  .banner-container{
     flex-direction: column-reverse;
     
   }
@@ -276,6 +281,10 @@ main{
     padding: 19px 30px;
   }
 
+  .Flower-Plants-Lover-container{
+    flex-direction: column;
+  }
+
   .Flower-Plants-Lover-title{
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -283,5 +292,11 @@ main{
 
   .Flower-Plants-Lover-lists{
     font-size: 0.87rem;
+  }
+  .images-container{
+    width: 360px;
+  }
+  .Flower-Plants-Lover--{
+    width: 360px;
   }
 }
