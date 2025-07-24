@@ -394,7 +394,8 @@ main {
   .discount-container{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin-left: 16px;
+    margin: 0 auto;
+    place-items: center;
   }
 
   .discount1,
