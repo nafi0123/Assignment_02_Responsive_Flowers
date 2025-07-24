@@ -389,13 +389,18 @@ main {
 
   .Latest-Deals-des {
     font-size: 0.9rem;
+    width: 366px;
   }
+
+
 
   .discount-container{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 0 auto;
     place-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .discount1,
